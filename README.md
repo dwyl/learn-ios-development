@@ -2,7 +2,12 @@
 
 # Learn `iOS` Development
 
-Notes, tips &amp; links for how we (re)learned `iOS` Development in 2025+. 📱
+Notes, tips &amp; links 
+for how we (re)learned 
+_Native_ `iOS` Development in 2025+. 📱
+
+<img  alt="iPhone in hand" src="https://github.com/user-attachments/assets/8e31ea18-9f87-4358-9593-a06569e597d7" />
+<!-- image credit: https://www.apple.com/v/iphone/home/cc/images/overview/switch/switch__e1m8caetxw6e_xlarge.jpg -->
 
 </div>
 
@@ -34,21 +39,24 @@ still works fine.
 `iPhone` have a _much_ longer useful life (on average)
 than comparable devices from other brands; 
 see below for _why_ ...
-Yes, there are people still using 10+ year old devices
-that they have taken good care of.
+Yes, there are people still using 10+ year old `Samsung` devices
+that they've taken good care of.
 These people either don't _care_ about security updates
-or they have rooted the decice to use a 
+or they have rooted the device to use a 
 [custom ROM](https://en.wikipedia.org/wiki/Custom_firmware#Android)
 and not need to rely on _official_ `Android` updates.
 But these are definitely the exception, not the rule.
 
 According to `Android Police`,
-the average lifespan of a smartphone is 2.54-2.67 (cycle length) years.
+the average lifespan of an `Android` smartphone 
+is 2.54-2.67 years.
+ref: 
 [androidpolice.com/how-long-should-a-smartphone-last](https://www.androidpolice.com/how-long-should-a-smartphone-last/)
 
 Google _recently_ (finally) listened to customers
 who complained about the short life (support cycle)
-for `Android` devices and has now committed to **7 years**
+for `Android` devices and has now committed to 
+[**7 years**](https://9to5google.com/2024/04/21/google-pixel-7-years-updates-meaning/)
 of support for _new_ `Pixel` devices. 
 But this is not extended back to older devices 
 e.g: 5 years old,
@@ -100,5 +108,22 @@ and that hopefully other `people` will love too,
 we have to pick the platform where the most _paying_ `people` are; 
 that's `iOS`/`iPhone`.
 
+
+## Why Do _I_ Want to Build a _Native_ `iOS` App?
+
+I want to build a **_Native_ App** that **loads and runs as fast as possible**.
+Our experience of using `Flutter` was that it was 20-30% slower to load
+than a comparable `Swift`/`Objective-C` (truly native) app.
+Our _basic_ app would often get stuck on the splash screen for multiple seconds on latest `iOS` devices (`iPhone 15 Pro/Max` at the time...), this was unacceptable.
+
+Finally there is no other way to build an `Apple Watch` or `iOS` home screen widget
+than to use `SwiftUI`. 
+Since I want to build _both_ of these and use the 
+"[Dynamic Island](https://support.apple.com/en-gb/guide/iphone/iph28f50d10d/ios)"
+I _have_ to use `SwiftUI`. 
+
+
 # What?
+
+
 
