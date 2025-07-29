@@ -21,8 +21,9 @@ when `Google` stopped supporting/updating my
 [`Pixel 3`](https://en.wikipedia.org/wiki/Pixel_3)
 (which I _loved_) after less than 3 years of owning it.
 
-> Android updates officially ended for the `Pixel 3` on **October 5 2021**; 3 years after it was launched.
-I got mine in March of 2019 so I didn't even have 3 years. 
+> **`Android` updates officially ended** for the `Pixel 3` on **October 5 2021**; 
+> **3 years** after **launch**! <br />
+> I got mine in **March 2019** so had **_less_ than 3 years** of supported use! 😢 
 
 Meanwhile my _ancient_ 
 [`iPhone 6`](https://en.wikipedia.org/wiki/IPhone_6) 
@@ -67,12 +68,23 @@ to keep older devices active.
 
 Source: [trefis.com/data/companies/AAPL/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue](https://www.trefis.com/data/companies/AAPL/no-login-required/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue-)
 
+> `Apple` _created_ the smartphone `App` _economy_.
+> And `iPhone` continues to dominate it in every respect.
+> Hence the _many_ lawsuits against `APPL` for antitrust:
+[theverge.com/24107581/apple-antitrust-monoply](https://www.theverge.com/24107581/doj-v-apple-antitrust-monoply-news-updates)
+> Even `if` the `DOJ`/`EU` successfully suit `APPL`,
+> their devices & `AppStore` will _still_ out-sell everyone `else`
+> and still be the best place to launch `Apps`. 
 
 `iPhone` is definitely not perfect,
 it's a _closed_ platform with strong lock-in.
 Customers effectively pay `APPL` _rent_
 for `iCloud` and other services
 which are _adequate_ but not amazing.
+If there was a truly _open_ alternative
+that wasn't run by an `Ad` company 
+that harvests _all_ your data,
+we would switch!
 
 But for all the `iPhone` flaws,
 it's still the most popular device in the world by far.
@@ -82,4 +94,11 @@ It's not even close.
 
 Source:
 [counterpointresearch.com/insight/global-smartphone-sales-top-10-best-sellers](https://www.counterpointresearch.com/insight/global-smartphone-sales-top-10-best-sellers)
+
+So, as _small_ team of `people` building apps we need for _ourselves_
+and that hopefully other `people` will love too,
+we have to pick the platform where the most _paying_ `people` are; 
+that's `iOS`/`iPhone`.
+
+# What?
 
