@@ -144,7 +144,9 @@ that's `iOS`/`iPhone`.
 
 ## Why Do _I_ Want to Build a _Native_ `iOS` App?
 
-I want to build a **_Native_ App** that **loads and runs as fast as possible**.
+As a [reluctant] `iOS`, `macOS` & `Apple Watch` "**_power_ user**",
+**I want** to build a **_Native_ App** 
+that **loads and runs as fast as possible**.
 Our experience of using `Flutter` was that it was 20-30% slower to load
 than a comparable `Swift`/`Objective-C` (truly native) app.
 Our _basic_ app would often get stuck on the splash screen for multiple seconds on latest `iOS` devices (`iPhone 15 Pro/Max` at the time...), this was unacceptable.
@@ -154,7 +156,9 @@ than to use `SwiftUI`. <br />
 Since I want to build _both_ of these 
 and use other native-only APIs like
 "[Dynamic Island](https://support.apple.com/en-gb/guide/iphone/iph28f50d10d/ios)" -
-a gimmic for sure but a _delightful_ interaction -
+a 
+[   gimmick](https://www.reddit.com/r/iphone/comments/x8vp9o/do_you_think_the_dynamic_island_is_a_gimmick/) 
+for sure but a _delightful_ interaction -
 I _have_ to use `SwiftUI`. 
 
 # What?
@@ -162,7 +166,7 @@ I _have_ to use `SwiftUI`.
 Learn `iOS` development 
 using `Swift` + `SwiftUI` 
 from first principles
-to build a _truly_ native experience on `iPhone`; 
+to build a **_truly_ native experience** on `iPhone`; 
 the most ubiquitous device.
 
 # Who?

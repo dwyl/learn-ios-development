@@ -128,6 +128,7 @@ print("Largest number is \(largest)")
 // Note:  Dictionaries are an unordered collection, 
 // so their keys and values are iterated over in an arbitrary order.
 
+
 var n = 2
 while n < 100 {
     n *= 2
@@ -144,8 +145,61 @@ print(m)
 
 // indexed loop:
 var total = 0
+// ..< to make a range that omits its upper value
 for i in 0..<4 {
     total += i
 }
 print("total: \(total)")
-// Prints "6"
+// Prints "6" (1 + 2 + 3)
+
+// documentation/the-swift-programming-language/guidedtour#Functions-and-Closures
+
+func greet(person: String, day: String) -> String {
+    return "Hello \(person), today is \(day)."
+}
+print(greet(person: "Bob", day: "Wednesday"))
+
+// return a compound value
+func calculateStatistics(scores: [Int]) -> (min: Int, max: Int, sum: Int) {
+    var min = scores[0]
+    var max = scores[0]
+    var sum = 0
+
+    for score in scores {
+        if score > max {
+            max = score
+        } else if score < min {
+            min = score
+        }
+        sum += score
+    }
+
+    return (min, max, sum)
+}
+
+let statistics = calculateStatistics(scores: [5, 3, 100, 3, 9])
+print("statistics.sum: \(statistics.sum)")
+// Should print "120"
+print("statistics.2: \(statistics.2)")
+// Should print "120" corresponding the *third* value in tuple (zero-indexed)
+
+// Nested functions
+func returnFifteen() -> Int {
+    var y = 10
+    func add() {
+        y += 5
+    }
+    add()
+    return y
+}
+print("returnFifteen() -> \(returnFifteen())")
+
+// Functions are a first-class type
+func makeIncrement() -> ((Int) -> Int) {
+    func addOne(number: Int) -> Int {
+        return 1 + number
+    }
+    return addOne
+}
+var increment = makeIncrement()
+print("increment(7) -> \(increment(7))")
