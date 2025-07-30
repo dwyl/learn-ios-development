@@ -203,3 +203,18 @@ func makeIncrement() -> ((Int) -> Int) {
 }
 var increment = makeIncrement()
 print("increment(7) -> \(increment(7))")
+
+// A function can take another function as one of its arguments:
+func hasAnyMatches(list: [Int], conditions: (Int) -> Bool) -> Bool {
+    for item in list {
+        if conditions(item) {
+            return true
+        }
+    }
+    return false
+}
+func lessThanTen(number: Int) -> Bool {
+    return number < 10
+}
+var numbers = [20, 19, 7, 12]
+print("hasAnyMatches(\(numbers)) -> \(hasAnyMatches(list: numbers, conditions: lessThanTen))")

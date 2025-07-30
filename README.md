@@ -165,14 +165,28 @@ I _have_ to use `SwiftUI`.
 
 Learn `iOS` development 
 using `Swift` + `SwiftUI` 
-from first principles
+from first principles <br />
 to build a **_truly_ native experience** on `iPhone`; 
-the most ubiquitous device.
+the most ubiquitous device.<sup>1</sup>
+
+> **<sup>1</sup>**: This is a bit of a rabbit hole. 🐇 🕳️ <br />
+> _Definitely_ not saying `iOS` has more "users" than `Android`,
+> that's patently `false`; 
+> globally `Android` has 3.9 billion active users,
+> whereas `iPhone` has only
+> [2.35 billion](https://www.macrumors.com/2025/01/30/apple-active-devices-worldwide-record/) active devices.
+> But as a **_single_ device** to target when building your App,
+> `iPhone` has _far_ more acvtive units than any _single_ `Android` device
+[explodingtopics.com/iphone-android-users](https://explodingtopics.com/blog/iphone-android-users)
+> The easiest way to understand 
+> In India, `Android` holds a **92%** market share, 
+in **China**, it has a **67%** market share 
+and in the **Africa** **89%** as of June 2025.
 
 # Who?
 
-These notes are primarily a tool to document _our_ learning journey.
-A reference we can consult if we need a refresher.
+These notes are primarily a tool to document _our_ learning journey. <br />
+A reference we can consult if we need a quick refresher.
 We try not to skip any steps and trouble-shoot errors when needed.
 As always, our notes are fully open so that _anyone_ 
 (including [ClosedAi](https://www.google.com/search?q=openai+closedai) bots) 
@@ -188,5 +202,40 @@ But if you get stuck, please open an issue
 
 ## Prerequisites
 
+Some basic programming experience is desireable but not essential.
+If you don't have _any_ prior experience in programming,
+I'd recommend learning `JavaScript` or `Python` first
+as the learning curve is less steep.
+
+If you already know a couple of programming languages,
+`Swift` has a pretty _gentle_ learning curve
+and the Official Docs are more than adequate
+for learning _everything_ you need:
+
+https://docs.swift.org/swift-book/documentation/the-swift-programming-language/thebasics/
+
+
 ## Required Hardware
 
+You'll need a `Mac` laptop with an `Apple Silicon` processor.
+e.g: any `M1` or greater.
+No need for any latest+greatest top spec `Mac`;
+just the one you can afford (or already have!).
+
+I'm writing this 
+and doing all my `Swift` learning
+on a base model `M1 MacBook Air`;
+the **_cheapest possible_ Mac laptop**
+with an `Apple Silicon` unified processor.
+
+`eBay` has _plenty_ of `M1 MacBook Air` units 
+people are selling off for cheap:
+[ebay.com/sch/i.html?_nkw=macbook+m1](https://www.ebay.co.uk/sch/i.html?_nkw=macbook+m1)
+
+<img width="895" height="287" alt="Image" src="https://github.com/user-attachments/assets/439ebdec-2a93-4173-8520-0a3770633c56" />
+
+That's not a typo! 
+Depending on where you are
+(and barring any silly import tarrifs/taxes),
+you could get the _exact_ laptop I'm using 
+for less than £150 ($200 USD or 172 EUR) at the time of writing.
