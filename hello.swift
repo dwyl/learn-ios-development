@@ -125,3 +125,27 @@ for (_, numbers) in interestingNumbers {
 print("Largest number is \(largest)")
 // Prints "25"
 
+// Note:  Dictionaries are an unordered collection, 
+// so their keys and values are iterated over in an arbitrary order.
+
+var n = 2
+while n < 100 {
+    n *= 2
+}
+print(n)
+// Prints "128"
+
+var m = 2
+repeat {
+     m *= 2
+} while m < 0
+print(m)
+// Prints "128"
+
+// indexed loop:
+var total = 0
+for i in 0..<4 {
+    total += i
+}
+print("total: \(total)")
+// Prints "6"

@@ -4,7 +4,7 @@
 
 Notes, tips &amp; links 
 for how we (re)learned 
-_Native_ `iOS` Development in 2025+. 📱
+**_Native_ `iOS` Development** in **`2025+`**. 📱
 
 <img  alt="iPhone in hand" src="https://github.com/user-attachments/assets/8e31ea18-9f87-4358-9593-a06569e597d7" />
 <!-- image credit: https://www.apple.com/v/iphone/home/cc/images/overview/switch/switch__e1m8caetxw6e_xlarge.jpg -->
@@ -17,9 +17,37 @@ If you already have/use an `iOS` device,
 I don't have to waste any time
 explaining the value proposition to you;
 just skip straight to the "What?" section below.
+You probably have dozens of Apps installed on your `iPhone`
+and if you want to learn how to _build_ them,
+you're in the right place! 
 
 If you _don't_ have/use an `iOS`, `iPadOS` or `macOS` device,
 this repo/guide might not _feel_ relevant to you.
+
+But that's like saying the opposite sex 
+(the _other_ 50% of people) 
+is not relevant to you because you aren't one of them. 🙅 <br />
+Because `iOS` / `iPhone` is 50% of the developed world;
+even if you have no plans to use an `iPhone`,
+they are still ubiquitous.
+
+And if you want to work as a **_full_ stack software engineer** in **2025**,
+_not_ knowing how to target the most ubiquitous platform
+for software delivery,
+is career suicide.
+
+> **Note**: yes, we still prefer the `Web` 
+as our App delivery platform.
+But Web Browsers on Mobile Devices 
+don't offer a truly _native_ experience
+and still treat `PWAs` as second-class citizens; 
+especially on `iOS` 
+where `Apple` can't monetise `Apps` 
+that aren't installed via `AppStore`.
+
+## Extended / _Personal_ "Why?"
+
+> **Note**: Skip this if you just want to crack on with learning!
 
 I switched back to `iPhone` from `Android` in 2021
 when `Google` stopped supporting/updating my 
@@ -35,6 +63,7 @@ Meanwhile my _ancient_
 from **2014** - 
 that I use for guided meditation -
 still works fine.
+I used it because it has a headphone jack! 🎧
 
 `iPhone` have a _much_ longer useful life (on average)
 than comparable devices from other brands; 
@@ -53,7 +82,7 @@ is 2.54-2.67 years.
 ref: 
 [androidpolice.com/how-long-should-a-smartphone-last](https://www.androidpolice.com/how-long-should-a-smartphone-last/)
 
-Google _recently_ (finally) listened to customers
+`Google` _recently_ (finally) listened to customers
 who complained about the short life (support cycle)
 for `Android` devices and has now committed to 
 [**7 years**](https://9to5google.com/2024/04/21/google-pixel-7-years-updates-meaning/)
@@ -63,12 +92,16 @@ e.g: 5 years old,
 only the `new` ones you buy from now on.
 
 Again, my **`10+ Year Old`** `iPhone` still works without issues.
-Apple has been doing a _much_ better job of supporting older devices
-because they are "free money" to them.
+
+## Business Case
+
+`Apple` has been doing a _much_ better job
+of supporting older devices
+because they are "**_free_ money**" to them.
 Each _active_ `iOS` device is a potential customer for
 the `AppStore`, `iCloud`, `Music` or `TV+` subscription.
 `Apple` currently makes **`$96bn/year`** 
-in recurring revenue from services,
+in recurring revenue from **services**,
 so `Apple` has every incentive 
 to keep older devices active.
 
@@ -117,13 +150,39 @@ than a comparable `Swift`/`Objective-C` (truly native) app.
 Our _basic_ app would often get stuck on the splash screen for multiple seconds on latest `iOS` devices (`iPhone 15 Pro/Max` at the time...), this was unacceptable.
 
 Finally there is no other way to build an `Apple Watch` or `iOS` home screen widget
-than to use `SwiftUI`. 
-Since I want to build _both_ of these and use the 
-"[Dynamic Island](https://support.apple.com/en-gb/guide/iphone/iph28f50d10d/ios)"
+than to use `SwiftUI`. <br />
+Since I want to build _both_ of these 
+and use other native-only APIs like
+"[Dynamic Island](https://support.apple.com/en-gb/guide/iphone/iph28f50d10d/ios)" -
+a gimmic for sure but a _delightful_ interaction -
 I _have_ to use `SwiftUI`. 
-
 
 # What?
 
+Learn `iOS` development 
+using `Swift` + `SwiftUI` 
+from first principles
+to build a _truly_ native experience on `iPhone`; 
+the most ubiquitous device.
 
+# Who?
+
+These notes are primarily a tool to document _our_ learning journey.
+A reference we can consult if we need a refresher.
+We try not to skip any steps and trouble-shoot errors when needed.
+As always, our notes are fully open so that _anyone_ 
+(including [ClosedAi](https://www.google.com/search?q=openai+closedai) bots) 
+can learn _faster_ than we did.
+
+If you find this repo useful, please star on `GitHub`. ⭐️🙏
+
+# How?
+
+This section details everything you need to get started
+without excessive hand-holding.
+But if you get stuck, please open an issue 
+
+## Prerequisites
+
+## Required Hardware
 
