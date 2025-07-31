@@ -218,3 +218,59 @@ func lessThanTen(number: Int) -> Bool {
 }
 var numbers = [20, 19, 7, 12]
 print("hasAnyMatches(\(numbers)) -> \(hasAnyMatches(list: numbers, conditions: lessThanTen))")
+
+var result = numbers.map({ (number: Int) -> Int in
+    let result = 3 * number
+    return result
+})
+
+print("numbers: \(numbers)")
+print("result: \(result) (tripple each number)")
+
+result = numbers.map({ (number: Int) -> Int in
+    if number % 2 == 0 {
+        return 3 * number
+    } else {
+        return 0
+    }
+})
+print("result: \(result) (odd numbers return zero)")
+
+// Single statement closures implicitly return the value of their only statement
+let mappedNumbers = numbers.map({ number in 3 * number })
+print("mappedNumbers: \(mappedNumbers)")
+// Prints "[60, 57, 21, 36]"
+
+// Referring to parameters by number:
+let sortedNumbers = numbers.sorted { $0 > $1 }
+print("sortedNumbers: \(sortedNumbers)")
+// Prints "[20, 19, 12, 7]"
+
+// Objects and Classes
+class Shape {
+    var numberOfSides = 0
+    func simpleDescription() -> String {
+        return "A shape with \(numberOfSides) sides"
+    }
+}
+
+// instantiate 
+var shape = Shape()
+// set value/property using dot syntax
+shape.numberOfSides = 7
+var shapeDescription = shape.simpleDescription()
+print("shapeDescription: \(shapeDescription)")
+
+// Class with initializer
+class NamedShape {
+    var numberOfSides: Int = 0
+    var nmae: String
+
+    init(name: String) {
+        self.name = name
+    }
+
+    func simpleDescription() -> String {
+        return "A shape with \(numberOfSides) sides."
+    }
+}

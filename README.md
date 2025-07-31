@@ -4,7 +4,7 @@
 
 Notes, tips &amp; links 
 for how we (re)learned 
-**_Native_ `iOS` Development** in **`2025+`**. 📱
+**_Native_ `iOS` Development** in **`2025+`**. 📝 📱 ⌚️ 💻
 
 <img  alt="iPhone in hand" src="https://github.com/user-attachments/assets/8e31ea18-9f87-4358-9593-a06569e597d7" />
 <!-- image credit: https://www.apple.com/v/iphone/home/cc/images/overview/switch/switch__e1m8caetxw6e_xlarge.jpg -->
@@ -16,7 +16,7 @@ for how we (re)learned
 If you already have/use an `iOS` device,
 I don't have to waste any time
 explaining the value proposition to you;
-just skip straight to the "What?" section below.
+just skip straight to the ["What?"](#what) section below.
 You probably have dozens of Apps installed on your `iPhone`
 and if you want to learn how to _build_ them,
 you're in the right place! 
@@ -54,16 +54,24 @@ when `Google` stopped supporting/updating my
 [`Pixel 3`](https://en.wikipedia.org/wiki/Pixel_3)
 (which I _loved_) after less than 3 years of owning it.
 
+
 > **`Android` updates officially ended** for the `Pixel 3` on **October 5 2021**; 
 > **3 years** after **launch**! <br />
+> 3 Year _useful_ life is _obnoxious_ 
+[planned obsolescence](https://en.wikipedia.org/wiki/Planned_obsolescence).
 > I got mine in **March 2019** so had **_less_ than 3 years** of supported use! 😢 
 
 Meanwhile my _ancient_ 
 [`iPhone 6`](https://en.wikipedia.org/wiki/IPhone_6) 
 from **2014** - 
 that I use for guided meditation -
-still works fine.
+still works fine. <br />
 I used it because it has a headphone jack! 🎧
+`Apple` "bravely" removed the headphone jack in `iPhone 7`
+and the `Lightning <-> 3.5mm Jack Adapter` is garbage.
+I've had 3 of the _Official_ Apple ones and they are **_deliberately_ flimsy**!
+So I have zero intention of letting go 
+of my `iPhone 6` with it's headphone jack!
 
 `iPhone` have a _much_ longer useful life (on average)
 than comparable devices from other brands; 
@@ -109,7 +117,7 @@ to keep older devices active.
 
 Source: [trefis.com/data/companies/AAPL/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue](https://www.trefis.com/data/companies/AAPL/no-login-required/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue-)
 
-> `Apple` _created_ the smartphone `App` _economy_.
+> **`Apple` _created_** the smartphone **`App` _economy_**.
 > And `iPhone` continues to dominate it in every respect.
 > Hence the _many_ lawsuits against `APPL` for antitrust:
 [theverge.com/24107581/apple-antitrust-monoply](https://www.theverge.com/24107581/doj-v-apple-antitrust-monoply-news-updates)
@@ -136,9 +144,12 @@ It's not even close.
 Source:
 [counterpointresearch.com/insight/global-smartphone-sales-top-10-best-sellers](https://www.counterpointresearch.com/insight/global-smartphone-sales-top-10-best-sellers)
 
-So, as _small_ team of `people` building apps we need for _ourselves_
-and that hopefully other `people` will love too,
-we have to pick the platform where the most _paying_ `people` are; 
+So, as **_small_ team** of **`people`** building apps
+we need for _ourselves_ in our daily lives
+and that _hopefully_ other `people` will love too,
+we have to pick the platform 
+where the most _paying_ `people` are, 
+to help us keep the lights on; 
 that's `iOS`/`iPhone`.
 
 
