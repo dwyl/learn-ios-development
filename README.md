@@ -228,25 +228,42 @@ https://docs.swift.org/swift-book/documentation/the-swift-programming-language/t
 
 ## Required Hardware
 
-You'll need a `Mac` laptop with an `Apple Silicon` processor.
+You'll need a `Mac` computer (laptop or desktop) 
+with an `Apple Silicon` processor.
 e.g: any `M1` or greater.
 No need for any latest+greatest top spec `Mac`;
 just the one you can afford (or already have!).
 
 I'm writing this 
 and doing all my `Swift` learning
-on a base model `M1 MacBook Air`;
-the **_cheapest possible_ Mac laptop**
+on a base model `M1 Mac Mini`;
+the **_cheapest possible_ Mac**
 with an `Apple Silicon` unified processor.
 
-`eBay` has _plenty_ of `M1 MacBook Air` units 
-people are selling off for cheap:
-[ebay.com/sch/i.html?_nkw=macbook+m1](https://www.ebay.co.uk/sch/i.html?_nkw=macbook+m1)
+`eBay` has _plenty_ of `M1 Mac Mini` units 
+people are selling for insanely cheap. <br />
+e.g:
+[ebay.com/sch/i.html?_nkw=mac+mini+m1](https://www.ebay.co.uk/sch/i.html?_nkw=macbook+m1)
 
-<img width="895" height="287" alt="Image" src="https://github.com/user-attachments/assets/439ebdec-2a93-4173-8520-0a3770633c56" />
+<img width="901" height="288" alt="Image" src="https://github.com/user-attachments/assets/2f1fa906-7052-4a75-85f2-6037fb2fd8f0" />
+
+actual listing: https://www.ebay.co.uk/itm/187422360597 
+(though it will have sold by the time you read this, 
+there are plenty of others and the prices are always coming down!)
+
+<img width="1464" height="910" alt="Image" src="https://github.com/user-attachments/assets/5ccf16f6-3357-4afb-91ad-3aa26d7c5246" />
 
 That's not a typo! 
 Depending on where you are
 (and barring any silly import tarrifs/taxes),
-you could get the _exact_ laptop I'm using 
-for less than £150 ($200 USD or 172 EUR) at the time of writing.
+you could get the _exact_ `Mac` I'm using 
+for less than **`£245`** 
+(**`$320`** USD or **`€283`** EUR)!
+This `M1` still has a good **5 Years** of useful life in it.
+Apple has no reason to discontinue supporting `<M1` Macs
+because every one is a potential services customer or `App` creator!
+Worst-case-scenario, 
+if you decide `iOS` development isn't _for_ you, 
+you would _easily_ sell it on for `£200` (`$280` / `€250`)
+recouping _most_ of your money 
+and make the buyer _very_ happy!
