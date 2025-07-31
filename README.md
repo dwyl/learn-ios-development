@@ -107,7 +107,7 @@ Again, my **`10+ Year Old`** `iPhone` still works without issues.
 of supporting older devices
 because they are "**_free_ money**" to them.
 Each _active_ `iOS` device is a potential customer for
-the `AppStore`, `iCloud`, `Music` or `TV+` subscription.
+the `AppStore`, `iCloud`, `Music` or `TV+` subscription. <br />
 `Apple` currently makes **`$96bn/year`** 
 in recurring revenue from **services**,
 so `Apple` has every incentive 
@@ -115,18 +115,22 @@ to keep older devices active.
 
 <img width="908" height="451" alt="Image" src="https://github.com/user-attachments/assets/c8b2301e-830f-4e1c-afa8-ee9613b648c9" />
 
-Source: [trefis.com/data/companies/AAPL/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue](https://www.trefis.com/data/companies/AAPL/no-login-required/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue-)
+Source: 
+[trefis.com/data/companies/AAPL/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue](https://www.trefis.com/data/companies/AAPL/no-login-required/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue-)
 
-> **`Apple` _created_** the smartphone **`App` _economy_**.
-> And `iPhone` continues to dominate it in every respect.
+> **`Apple` _created_** the smartphone **`App` _economy_**
+> when they [launched the `AppStore` in 2008]. <br />
+> `iPhone` continues to dominate mobile App developemtn in every respect.
 > Hence the _many_ lawsuits against `APPL` for antitrust:
-[theverge.com/24107581/apple-antitrust-monoply](https://www.theverge.com/24107581/doj-v-apple-antitrust-monoply-news-updates)
+[theverge.com/24107581/apple-antitrust-monoply](https://www.theverge.com/24107581/doj-v-apple-antitrust-monoply-news-updates) <br />
 > Even `if` the `DOJ`/`EU` successfully suit `APPL`,
 > their devices & `AppStore` will _still_ out-sell everyone `else`
 > and still be the best place to launch `Apps`. 
 
 `iPhone` is definitely not perfect,
-it's a _closed_ platform with strong lock-in.
+it's a **_closed_ platform** with **_strong_ lock-in**;
+often referred to as a 
+["walled garden"](https://en.wikipedia.org/wiki/Closed_platform). 
 Customers effectively pay `APPL` _rent_
 for `iCloud` and other services
 which are _adequate_ but not amazing.
@@ -189,10 +193,18 @@ the most ubiquitous device.<sup>1</sup>
 > But as a **_single_ device** to target when building your App,
 > `iPhone` has _far_ more acvtive units than any _single_ `Android` device
 [explodingtopics.com/iphone-android-users](https://explodingtopics.com/blog/iphone-android-users)
-> The easiest way to understand 
-> In India, `Android` holds a **92%** market share, 
-in **China**, it has a **67%** market share 
-and in the **Africa** **89%** as of June 2025.
+> The easiest way to understand `Android's` global dominance is that
+> in India a country with 
+[1.45 Billion people](https://en.wikipedia.org/wiki/Demographics_of_India), 
+`Android` holds a **92%** market share, 
+in **China** 
+([1.4 Billion people](https://en.wikipedia.org/wiki/Demographics_of_China)), 
+it has a **67%** market share 
+and in the **Africa** 
+([1.5 Billion people](https://en.wikipedia.org/wiki/Demographics_of_Africa))
+**89%** as of June 2025.
+
+
 
 # Who?
 
@@ -267,3 +279,12 @@ if you decide `iOS` development isn't _for_ you,
 you would _easily_ sell it on for `£200` (`$280` / `€250`)
 recouping _most_ of your money 
 and make the buyer _very_ happy!
+
+If you aren't short on cash,
+you can always get one with more `RAM`,
+but definitely don't go out and spend a fortune 
+on a brand new `Mac` just to learn `iOS` development.
+Spend as _little_ money as possible just to get started.
+Launch your awesome App 
+and then once it _makes_ money,
+you can always upgrade! 
