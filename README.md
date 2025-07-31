@@ -86,7 +86,7 @@ But these are definitely the exception, not the rule.
 
 According to `Android Police`,
 the average lifespan of an `Android` smartphone 
-is 2.54-2.67 years.
+is **2.54-2.67 years**. <br />
 ref: 
 [androidpolice.com/how-long-should-a-smartphone-last](https://www.androidpolice.com/how-long-should-a-smartphone-last/)
 
@@ -97,7 +97,7 @@ for `Android` devices and has now committed to
 of support for _new_ `Pixel` devices. 
 But this is not extended back to older devices 
 e.g: 5 years old,
-only the `new` ones you buy from now on.
+only the `new` ones you buy from now on. 🙃
 
 Again, my **`10+ Year Old`** `iPhone` still works without issues.
 
@@ -119,7 +119,8 @@ Source:
 [trefis.com/data/companies/AAPL/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue](https://www.trefis.com/data/companies/AAPL/no-login-required/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue-)
 
 > **`Apple` _created_** the smartphone **`App` _economy_**
-> when they [launched the `AppStore` in 2008]. <br />
+> when they 
+[launched the `AppStore` in 2008](https://en.wikipedia.org/wiki/App_store#Smartphone_app_stores). <br />
 > `iPhone` continues to dominate mobile App developemtn in every respect.
 > Hence the _many_ lawsuits against `APPL` for antitrust:
 [theverge.com/24107581/apple-antitrust-monoply](https://www.theverge.com/24107581/doj-v-apple-antitrust-monoply-news-updates) <br />
