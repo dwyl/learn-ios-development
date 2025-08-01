@@ -125,8 +125,10 @@ Source:
 > Hence the _many_ lawsuits against `APPL` for antitrust:
 [theverge.com/24107581/apple-antitrust-monoply](https://www.theverge.com/24107581/doj-v-apple-antitrust-monoply-news-updates) <br />
 > Even `if` the `DOJ`/`EU` successfully suit `APPL`,
-> their devices & `AppStore` will _still_ out-sell everyone `else`
-> and still be the best place to launch `Apps`. 
+> it will be at _best_ a 
+> [wrist-slap](https://en.wiktionary.org/wiki/wrist-slap#Verb). 🙄 <br />
+> Their devices & `AppStore` will _still_ out-sell everyone `else`
+> and remain the **_best_ place** to **launch `Apps`**. 
 
 `iPhone` is definitely not perfect,
 it's a **_closed_ platform** with **_strong_ lock-in**;

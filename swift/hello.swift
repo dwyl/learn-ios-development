@@ -293,6 +293,28 @@ class Square: NamedShape {
     }
 }
 
-let test = Square(sideLength: 5.2, name: "my test square")
+let test = Square(sideLength: 5.0, name: "my test square")
 print("test.area() -> \(test.area())")
 print("test.simpleDescription() -> \(test.simpleDescription())")
+
+// Experiment: Circle
+class Circle: NamedShape {
+    let pi = 3.14159
+    var radius: Double
+
+    init(radius: Double, name: String) {
+        self.radius = radius
+        super.init(name: name)
+    }
+
+    func area() -> Double {
+        return radius * radius * pi
+    }
+
+    override func simpleDescription() -> String {
+        return "A circle called \(name) with radius \(radius) and area \(area())"
+    }
+}
+
+let cirlce = Circle(radius: 4.20, name: "Circle K")
+print("Cricle: \(cirlce.simpleDescription())")
