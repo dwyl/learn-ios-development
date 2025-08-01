@@ -14,9 +14,9 @@ for how we (re)learned
 # Why?
 
 If you already have/use an `iOS` device,
-I don't have to waste any time
-explaining the value proposition to you;
-just skip straight to the ["What?"](#what) section below.
+there's no need to waste any time
+explaining the value proposition to you; <br />
+simplyx§ skip straight to the ["What?"](#what) section below.
 You probably have dozens of Apps installed on your `iPhone`
 and if you want to learn how to _build_ them,
 you're in the right place! 
@@ -178,6 +178,23 @@ a
 [   gimmick](https://www.reddit.com/r/iphone/comments/x8vp9o/do_you_think_the_dynamic_island_is_a_gimmick/) 
 for sure but a _delightful_ interaction -
 I _have_ to use `SwiftUI`. 
+
+## `Android` Has 24 _Thousand_ Devices!
+
+The "`Android` is for _everyone_" page: 
+https://www.android.com/everyone/ 
+proudly states:
+"_There are now nearly **1,300 brands** 
+that have produced over **24,000 distinct Android devices**_"
+
+<img width="1256" alt="Image" src="https://github.com/user-attachments/assets/47b5f4d6-8b0f-4c06-ac0f-236b7d7879a8" />
+
+This sounds _great_ for diversity of options, 
+but _horrendous_ for anyone needing to create an App 
+that even _attempts_ to look _good_ on all these devices, 
+never mind trying to 
+[QA](https://en.wikipedia.org/wiki/Quality_assurance)
+on a _representative_ sample of these devices. 
 
 # What?
 
