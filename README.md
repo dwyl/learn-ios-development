@@ -143,8 +143,8 @@ that harvests _all_ your data,
 we would switch!
 
 But for all the `iPhone` flaws,
-it's still the most popular device in the world by far.
-It's not even close.
+it's still the most popular _single_ device in the world by far.
+It's not even close:
 
 <img width="783" height="443" alt="smartphone sales" src="https://github.com/user-attachments/assets/0932534e-96d2-42d0-85fa-b03096cdc514" />
 
