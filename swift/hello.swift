@@ -374,3 +374,56 @@ print("triangleAndSquare.triangle.sideLength: \(triangleAndSquare.triangle.sideL
 triangleAndSquare.square = Square(sideLength: 50, name: "larger square")
 print("triangleAndSquare.triangle.sideLength: \(triangleAndSquare.triangle.sideLength)")
 // Prints "50.0"
+
+let optionalSquare: Square? = Square(sideLength: 2.5, name: "optional square")
+print("sideLength: \(String(describing: optionalSquare?.sideLength))")
+
+// /Enumerations-and-Structures
+enum Rank: Int {
+    case ace = 1
+    case two, three, four, five, six, seven, eight, nine, ten
+    case jack, queen, king
+
+    func simpleDescription() -> String {
+        switch self {
+            case .ace: 
+                return "ace"
+            case .jack:
+                return "jack"
+            case .queen: 
+                return "queen"
+            case .king: 
+                return "king"
+            default:
+                return String(self.rawValue)
+        }
+    }
+}
+let ace = Rank.ace
+let aceRawValue = ace.rawValue
+print("ace: \(ace), aceRawValue: \(aceRawValue)")
+print("two: \(Rank.two), Rank.two.rawValue: \(Rank.two.rawValue)")
+print("queen \(Rank.queen), Rank.queen.rawValue: \(Rank.queen.rawValue)")
+
+// can't say I find this syntax intuitive ...
+// why use a "case" to define the values?
+
+enum Suit {
+    case clubs, diamonds, hearts, spades // alphabetical!
+
+    func simpleDescription() -> String {
+        switch self {
+            case .clubs: 
+                return "clubs"
+            case .diamonds:
+                return "diamonds"
+            case .hearts:
+                return "hearts"
+            case .spades:
+                return "spades"
+        }
+    }
+}
+let hearts = Suit.hearts
+let heartsDescription = hearts.simpleDescription()
+print("hearts: \(hearts), heartsDescription: \(heartsDescription)")

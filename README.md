@@ -15,8 +15,9 @@ for how we (re)learned
 
 If you already have/use an `iOS` device,
 there's no need to waste any time
-explaining the value proposition to you; <br />
-simplyx§ skip straight to the ["What?"](#what) section below.
+explaining the value proposition to you;
+simply skip straight to the ["What?"](#what) section below.
+
 You probably have dozens of Apps installed on your `iPhone`
 and if you want to learn how to _build_ them,
 you're in the right place! 
