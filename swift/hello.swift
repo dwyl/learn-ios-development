@@ -423,7 +423,37 @@ enum Suit {
                 return "spades"
         }
     }
+    // Experiment: color method
+    func color() -> String {
+        switch self {
+            case .clubs, .spades: 
+                return "black"
+            case .diamonds, .hearts:
+                return "red"
+        }
+    }
 }
 let hearts = Suit.hearts
 let heartsDescription = hearts.simpleDescription()
-print("hearts: \(hearts), heartsDescription: \(heartsDescription)")
+print("hearts: \(hearts), heartsDescription: \(heartsDescription), color: \(Suit.hearts.color())")
+print("spades: \(Suit.spades), spadesDescription: \(Suit.spades.simpleDescription()), color: \(Suit.spades.color())")
+
+enum ServerResponse {
+    case result(String, String)
+    case failure(String)
+    case undecided(String)
+}
+
+let success = ServerResponse.result("6:00 am", "8:09 pm")
+let failure = ServerResponse.failure("Out of cheese.")
+let undecided = ServerResponse.undecided("Maybe")
+
+switch success {
+    case let .result(sunrise, sunset):
+        print("Sunrise is at \(sunrise) and sunset is at \(sunset)")
+    case let .failure(message):
+        print("Failure... \(message)")
+    case let .undecided(message):
+        print("Undecided ... \(message)")
+}
+// Prints: Sunrise is at 6:00 am and sunset is at 8:09 pm

@@ -13,10 +13,10 @@ for how we (re)learned
 
 # Why?
 
-If you already have/use an `iOS` device,
+If you **_already_ have** an **`iOS` device**,
 there's no need to waste any time
 explaining the value proposition to you;
-simply skip straight to the ["What?"](#what) section below.
+simply **skip straight to** the ["**What?**"](#what) **section** below.
 
 You probably have dozens of Apps installed on your `iPhone`
 and if you want to learn how to _build_ them,
