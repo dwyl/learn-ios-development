@@ -60,17 +60,25 @@ from first principles <br />
 to build a **_truly_ native experience** on `iPhone`; 
 the most ubiquitous device.<sup>1</sup>
 
-> **<sup>1</sup>**: This is a bit of a rabbit hole. 🐇 🕳️ <br />
-> _Definitely_ not saying `iOS` has more "users" than `Android`,
-> that's patently `false`; 
-> globally `Android` has 3.9 billion active users,
-> whereas `iPhone` has only
-> [2.35 billion](https://www.macrumors.com/2025/01/30/apple-active-devices-worldwide-record/) active devices.
-> But as a **_single_ device** to target when building your App,
-> `iPhone` has _far_ more acvtive units than any _single_ `Android` device
+<details>
+
+<summary>**<sup>1</sup>** This is a bit of a rabbit hole. 🐇 🕳️</summary>
+
+### You can add a header
+
+_Nobody_ can say `iOS` has more "users" than `Android`,
+that's patently `false`. <br />
+Globally `Android` has
+[3.9 billion](https://www.bankmycell.com/blog/how-many-android-users-are-there)
+active users,
+whereas `iPhone` has _only_
+[1.56 billion](https://www.macrumors.com/2025/01/30/apple-active-devices-worldwide-record/)
+active devices. <br />
+But as a **_single_ device** to target when building your App,
+`iPhone` has _far_ more acvtive units than any _single_ `Android` device
 [explodingtopics.com/iphone-android-users](https://explodingtopics.com/blog/iphone-android-users)
-> The easiest way to understand `Android's` global dominance is that
-> in India a country with 
+The easiest way to understand `Android's` global dominance
+is that **India** a country with 
 [1.45 Billion people](https://en.wikipedia.org/wiki/Demographics_of_India), 
 `Android` holds a **92%** market share, 
 in **China** 
@@ -78,7 +86,21 @@ in **China**
 it has a **67%** market share 
 and in the **Africa** 
 ([1.5 Billion people](https://en.wikipedia.org/wiki/Demographics_of_Africa))
-**89%** as of June 2025.
+**89%** as of June 2025. <br />
+`Google` has a mass-market strategy
+that focusses getting `Android`
+into as _many_ hands & homes as possible
+to **collect** as **_much_ data as possible**.
+`Apple` focusses on profitability.
+Both _immediate_ profits selling `iPhones`
+and ongoing profits from "services".
+51% percent of `Apple's` revenue comes from selling `iPhones`
+and 24% comes from "services" 
+[businessofapps.com/apple-statistics](https://www.businessofapps.com/data/apple-statistics/)
+
+</details>
+
+
 
 
 
