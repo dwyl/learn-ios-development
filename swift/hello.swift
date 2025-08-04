@@ -457,3 +457,17 @@ switch success {
         print("Undecided ... \(message)")
 }
 // Prints: Sunrise is at 6:00 am and sunset is at 8:09 pm
+
+// Struct
+struct Card {
+    var rank: Rank
+    var suit: Suit
+    func simpleDescription() -> String {
+        return "The \(rank.simpleDescription()) of \(suit.simpleDescription())"
+    }
+}
+let threeOfSpades = Card(rank: .three, suit: .spades)
+let threeOfSpadesDescription = threeOfSpades.simpleDescription()
+print("threeOfSpades \(threeOfSpades), desc: \(threeOfSpadesDescription)")
+
+// Expriment full deck of cards
