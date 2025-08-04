@@ -62,9 +62,9 @@ the most ubiquitous device.<sup>1</sup>
 
 <details>
 
-<summary>**<sup>1</sup>** This is a bit of a rabbit hole. 🐇 🕳️</summary>
+<summary><sup>1</sup> This is a bit of a rabbit hole. 🐇 🕳️</summary>
 
-### You can add a header
+## Building Apps for `Android` vs. `iOS`
 
 _Nobody_ can say `iOS` has more "users" than `Android`,
 that's patently `false`. <br />
@@ -75,8 +75,11 @@ whereas `iPhone` has _only_
 [1.56 billion](https://www.macrumors.com/2025/01/30/apple-active-devices-worldwide-record/)
 active devices. <br />
 But as a **_single_ device** to target when building your App,
-`iPhone` has _far_ more acvtive units than any _single_ `Android` device
+`iPhone` has _far_ more acvtive units than **any _single_ `Android` device**
 [explodingtopics.com/iphone-android-users](https://explodingtopics.com/blog/iphone-android-users)
+
+## `Android` Dominates Emerging Markets
+
 The easiest way to understand `Android's` global dominance
 is that **India** a country with 
 [1.45 Billion people](https://en.wikipedia.org/wiki/Demographics_of_India), 
@@ -90,7 +93,11 @@ and in the **Africa**
 `Google` has a mass-market strategy
 that focusses getting `Android`
 into as _many_ hands & homes as possible
-to **collect** as **_much_ data as possible**.
+to 
+[**collect** as **_much_ data as possible**](https://www.eff.org/deeplinks/2020/03/google-says-it-doesnt-sell-your-data-heres-how-company-shares-monetizes-and).
+
+## `Apple` 
+
 `Apple` focusses on profitability.
 Both _immediate_ profits selling `iPhones`
 and ongoing profits from "services".
@@ -98,11 +105,24 @@ and ongoing profits from "services".
 and 24% comes from "services" 
 [businessofapps.com/apple-statistics](https://www.businessofapps.com/data/apple-statistics/)
 
+## 24,000 Distinct `Android` Devices
+
+The "`Android` is for _everyone_" page 
+[android.com/everyone](https://www.android.com/everyone/)
+proudly states
+"_There are now nearly **1,300 brands** that have produced over **24,000 distinct Android devices**_"
+<img width="1256" height="558" alt="Image" src="https://github.com/user-attachments/assets/47b5f4d6-8b0f-4c06-ac0f-236b7d7879a8" />
+
+This sounds _great_ for diversity of options,
+but _horrendous_ for anyone needing to create an App
+that even _attempts_ to look good on all these devices,
+never mind trying to 
+[QA](https://en.wikipedia.org/wiki/Quality_assurance)
+on a 
+[_representative_ sample](https://en.wikipedia.org/wiki/Simple_random_sample)
+of these devices. 
+
 </details>
-
-
-
-
 
 # Who?
 
@@ -166,11 +186,12 @@ there are plenty of others and the prices are always coming down!)
 That's not a typo! 
 Depending on where you are
 (and barring any silly import tarrifs/taxes),
-you could get the _exact_ `Mac` I'm using 
+you could get the _exact_ `Mac` we're using 
 for less than **`£245`** 
 (**`$320`** USD or **`€283`** EUR)!
-This `M1` still has a good **5 Years** of useful life in it.
-Apple has no reason to discontinue supporting `<M1` Macs
+This `M1` still has a good **5 Years** of useful life in it
+and it's _perfect_ for building Apps with `XCode`!
+Apple has no reason to discontinue supporting `M1` Macs
 because every one is a potential services customer or `App` creator!
 Worst-case-scenario, 
 if you decide `iOS` development isn't _for_ you, 
