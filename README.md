@@ -78,6 +78,10 @@ But as a **_single_ device** to target when building your App,
 `iPhone` has _far_ more acvtive units than **any _single_ `Android` device**
 [explodingtopics.com/iphone-android-users](https://explodingtopics.com/blog/iphone-android-users)
 
+If the _global_ number of "users"
+was the only factor to consider when investing in building Apps,
+`Android` would be the no-brainer target platform.
+
 ## `Android` Dominates Emerging Markets
 
 The easiest way to understand `Android's` global dominance
@@ -121,6 +125,23 @@ never mind trying to
 on a 
 [_representative_ sample](https://en.wikipedia.org/wiki/Simple_random_sample)
 of these devices. 
+
+## `iOS` Dominates Affluent Countries
+
+Percentage of `iPhone` is strongly correlated with GDP per capita in the country:
+[worldpopulationreview.com/country-rankings/iphone-market-share-by-country](https://worldpopulationreview.com/country-rankings/iphone-market-share-by-country)
+
+<img width="1341" height="779" alt="Image" src="https://github.com/user-attachments/assets/01022cdf-3b6f-4baa-8273-2f6be722a1b3" />
+
+E.g: `Norway` has **`70%+`** and `Denmark` has **`69%`** `iOS` market share. 
+But most importantly, 
+all _English_-speaking countries have **`50%<`** market share.
+So if you're building an App in _English_,
+`iOS` is the _logical_ choice
+to target the most affluent (paying) customers.
+
+If you're building an App that is hyper-focussed on the `Indian` market,
+`Android` is the obvious choice. 
 
 </details>
 
