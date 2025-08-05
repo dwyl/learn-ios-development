@@ -471,3 +471,17 @@ let threeOfSpadesDescription = threeOfSpades.simpleDescription()
 print("threeOfSpades \(threeOfSpades), desc: \(threeOfSpadesDescription)")
 
 // Expriment full deck of cards
+func fullDeckOfCards() -> Array<String> {
+    let suits = ["♥", "♦", "♣","♠"]
+    let ranks = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"]
+    var fullDeck: Array<String> = []
+    for suit in suits {
+        for rank in ranks {
+            fullDeck.append("\(rank) \(suit)")
+        }
+    }
+
+    return fullDeck
+}
+let deck = fullDeckOfCards()
+print("Full Deck of Cards: \n\(deck.joined(separator: ", "))")

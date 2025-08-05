@@ -62,7 +62,7 @@ the most ubiquitous device.<sup>1</sup>
 
 <details>
 
-<summary><sup>1</sup> This is a bit of a rabbit hole. 🐇 🕳️</summary>
+<summary><sup>1</sup> This is a bit of a rabbit hole ... 🐇 🕳️</summary>
 
 ## Building Apps for `Android` vs. `iOS`
 
@@ -81,6 +81,7 @@ But as a **_single_ device** to target when building your App,
 If the _global_ number of "users"
 was the only factor to consider when investing in building Apps,
 `Android` would be the no-brainer target platform.
+End of story.
 
 ## `Android` Dominates Emerging Markets
 
@@ -100,7 +101,7 @@ into as _many_ hands & homes as possible
 to 
 [**collect** as **_much_ data as possible**](https://www.eff.org/deeplinks/2020/03/google-says-it-doesnt-sell-your-data-heres-how-company-shares-monetizes-and).
 
-## `Apple` 
+## `Apple` Focuses On Top-end Of The Market
 
 `Apple` focusses on profitability.
 Both _immediate_ profits selling `iPhones`
@@ -108,6 +109,33 @@ and ongoing profits from "services".
 51% percent of `Apple's` revenue comes from selling `iPhones`
 and 24% comes from "services" 
 [businessofapps.com/apple-statistics](https://www.businessofapps.com/data/apple-statistics/)
+
+`Apple` currently makes **`$96bn/year`** 
+from their high-margin **_recurring_ revenue services**. 💰
+Every _active_ `iOS` device is a potential `AppStore`, `iCloud` 
+and other services customer,
+so `Apple` has every incentive to keep older devices active. 
+
+<img width="908" height="451" alt="Image" src="https://github.com/user-attachments/assets/c8b2301e-830f-4e1c-afa8-ee9613b648c9" />
+
+Source: [trefis.com/data/companies/AAPL/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue](https://www.trefis.com/data/companies/AAPL/no-login-required/7JGMQ7wT/Breaking-Down-Apple-s-Services-Revenue-)
+
+Affluent `Apple` customers still change `iPhone` every **3 years** on average, 
+but `Apple` makes it easy to "recycle" the device either as a trade-in or hand-me-down.
+e.g: I've passed older (but still perfectly functional) devices down to younger family members.
+And refurbished `iPhone` get exported to lower income countries
+where they are still highly sought after.
+
+Way more detail on this topic:
+[pymnts.com/earnings/2025/apple-tops-a-billion-subscribers-as-services-climb-to-record-revenue](https://www.pymnts.com/earnings/2025/apple-tops-a-billion-subscribers-as-services-climb-to-record-revenue/)
+
+### 
+
+`iPhone` outsells everything `else`: 
+
+<img width="783" height="443" alt="Image" src="https://github.com/user-attachments/assets/0932534e-96d2-42d0-85fa-b03096cdc514" />
+
+[counterpointresearch.com/global-smartphone-sales-top-10-best-sellers](https://www.counterpointresearch.com/insight/global-smartphone-sales-top-10-best-sellers)
 
 ## 24,000 Distinct `Android` Devices
 
@@ -128,12 +156,19 @@ of these devices.
 
 ## `iOS` Dominates Affluent Countries
 
-Percentage of `iPhone` is strongly correlated with GDP per capita in the country:
+Percentage of `iPhone` is _strongly_ correlated 
+with GDP per capita:
 [worldpopulationreview.com/country-rankings/iphone-market-share-by-country](https://worldpopulationreview.com/country-rankings/iphone-market-share-by-country)
 
 <img width="1341" height="779" alt="Image" src="https://github.com/user-attachments/assets/01022cdf-3b6f-4baa-8273-2f6be722a1b3" />
 
-E.g: `Norway` has **`70%+`** and `Denmark` has **`69%`** `iOS` market share. 
+https://en.wikipedia.org/wiki/List_of_countries_by_GDP_(nominal)_per_capita
+
+<img width="1382" height="908" alt="Image" src="https://github.com/user-attachments/assets/d67031e4-bd03-4960-9cef-9995b40a4cee" />
+
+
+e.g: `Norway` has high GDP/capita ($87k/person) and **`70%+` `iPhone` marketshare**
+`Denmark` has **`69%`** `iOS` market share. 
 But most importantly, 
 all _English_-speaking countries have **`50%<`** market share.
 So if you're building an App in _English_,
@@ -210,7 +245,10 @@ Depending on where you are
 you could get the _exact_ `Mac` we're using 
 for less than **`£245`** 
 (**`$320`** USD or **`€283`** EUR)!
-This `M1` still has a good **5 Years** of useful life in it
+This `M1` still has a good **5 Years**
+of 
+[useful life](https://en.wikipedia.org/wiki/Product_lifetime)
+in it
 and it's _perfect_ for building Apps with `XCode`!
 Apple has no reason to discontinue supporting `M1` Macs
 because every one is a potential services customer or `App` creator!
@@ -220,11 +258,14 @@ you would _easily_ sell it on for `£200` (`$280` / `€250`)
 recouping _most_ of your money 
 and make the buyer _very_ happy!
 
-If you aren't short on cash,
+If you are _not_ short on cash,
 you can always get one with more `RAM`,
-but definitely don't go out and spend a fortune 
-on a brand new `Mac` just to learn `iOS` development.
+but **definitely don't** go out and spend a fortune 
+on a **brand new `Mac`** just to learn `iOS` development.
 Spend as _little_ money as possible just to get started.
 Launch your awesome App 
 and then once it _makes_ money,
 you can always upgrade! 
+
+
+## Progressive Disclosure of Complexity
