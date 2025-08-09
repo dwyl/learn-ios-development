@@ -485,3 +485,32 @@ func fullDeckOfCards() -> Array<String> {
 }
 let deck = fullDeckOfCards()
 print("Full Deck of Cards: \n\(deck.joined(separator: ", "))")
+
+// Concurrency
+func fetchUserID(from server: String) async -> Int {
+    if server == "primary" {
+        return 97
+    }
+    return 501
+}
+
+func fetchUsername(from server: String) async -> String {
+    let userID = await fetchUserID(from: server)
+    if userID == 501 {
+        return "John Appleseed"
+    }
+    return "Guest"
+}
+
+func connectUser(to server: String) async {
+    async let userID = fetchUserID(from: server)
+    async let username = fetchUsername(from: server)
+    let greeting = await "Hello \(username), user ID \(usrerID)"
+    print(greeting)
+}
+
+Task {
+    await connectUser(to: "primary")
+}
+// Prints "Hello Guest, user ID 97"
+

@@ -111,9 +111,9 @@ and 24% comes from "services"
 [businessofapps.com/apple-statistics](https://www.businessofapps.com/data/apple-statistics/)
 
 `Apple` currently makes **`$96bn/year`** 
-from their high-margin **_recurring_ revenue services**. 💰
+from their high-margin **_recurring_ revenue services**. 💰 <br />
 Every _active_ `iOS` device is a potential `AppStore`, `iCloud` 
-and other services customer,
+and other services customer, <br />
 so `Apple` has every incentive to keep older devices active. 
 
 <img width="908" height="451" alt="Image" src="https://github.com/user-attachments/assets/c8b2301e-830f-4e1c-afa8-ee9613b648c9" />
