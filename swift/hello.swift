@@ -517,7 +517,7 @@ Task {
 // The following code threw the error:
 // https://github.com/dwyl/learn-ios-development/issues/1#issuecomment-3172449701 🙃
 // I don't have the knowledge/time to dig into it, hence commented. 
-// I don't expect to *need* Actors or Protocols any time soon; but understand them.
+// I don't expect to *need* Actors or Protocols any time soon; but understand them. 👌
 
 // User Task groups to structure concurrent code
 // let userIDs = await withTaskGroup(of: Int.self) { group in
@@ -587,3 +587,59 @@ Task {
 //     }
 // }
 // print(7.simpleDescription)
+
+// Error Handling
+enum PrinterError: Error {
+    case outOfPaper
+    case noToner
+    case onFire
+}
+
+func send(job: Int, toPrinter printerName: String) throws -> String {
+    if printerName == "Never Has Toner" {
+        throw PrinterError.noToner
+    }
+    return "Job sent"
+}
+
+do {
+    let printerResponse = try send(job: 1040, toPrinter: "Bi Sheng")
+    print(printerResponse)
+} catch {
+    print(error)
+}
+
+//  Multiple catch blocks can handle specific errors:
+do {
+    let printerResponse = try send(job: 1440, toPrinter: "Gutenberg")
+    print(printerResponse) 
+    throw PrinterError.onFire
+} catch PrinterError.onFire {
+    print("I'll just put this over here, with the rest of the fire.") 
+} catch let printerError as PrinterError {       
+    print("Printer error: \(printerError).")
+} catch {
+    print(error)
+}
+// Prints "Job Sent"
+
+let printerSuccess = try? send(job: 1884, toPrinter: "Mergenthaler")
+let printerFailure = try? send(job: 1885, toPrinter: "Never Has Toner")
+
+var fridgeIsOpen = false
+let fridgeContent = ["milk", "eggs", "leftovers"]
+
+func fridgeContains(_ food: String) -> Bool {
+    fridgeIsOpen = true
+    defer {
+        fridgeIsOpen = false
+    }
+
+    let result = fridgeContent.contains(food)
+    return result
+}
+if fridgeContains("banana") {
+    print("Found a banana")
+}
+print("fridgeIsOpen: \(fridgeIsOpen)")
+// Prints "false"
