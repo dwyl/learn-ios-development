@@ -505,7 +505,7 @@ func fetchUsername(from server: String) async -> String {
 func connectUser(to server: String) async {
     async let userID = fetchUserID(from: server)
     async let username = fetchUsername(from: server)
-    let greeting = await "Hello \(username), user ID \(usrerID)"
+    let greeting = await "Hello \(username), user ID \(userID)"
     print(greeting)
 }
 
@@ -514,3 +514,76 @@ Task {
 }
 // Prints "Hello Guest, user ID 97"
 
+// The following code threw the error:
+// https://github.com/dwyl/learn-ios-development/issues/1#issuecomment-3172449701 🙃
+// I don't have the knowledge/time to dig into it, hence commented. 
+// I don't expect to *need* Actors or Protocols any time soon; but understand them.
+
+// User Task groups to structure concurrent code
+// let userIDs = await withTaskGroup(of: Int.self) { group in
+//     for server in ["primary", "secondary", "development"] {
+//         group.addTask {
+//             return await fetchUserID(from: server)
+//         }
+
+//         var results: [Int] = []
+//         for await result in group {
+//             results.append(result)
+//         }
+//         return results
+//     }
+// }
+
+// Actors
+// actor ServerConnection {
+//     var server: String = "primary"
+//     private var activeUsers: [Int] = []
+//     func connect() async -> Int {
+//         let userID = await fetchUserID(from: server)
+//         // ... communicate with server ...
+//         activeUsers.append(userID)
+//         return userID
+//     }
+// }
+
+// let server = ServerConnection()
+// let userID = await server.connect()
+
+// // Protocols and Extensions
+// protocol ExampleProtocol {
+//     var simpleDescription: String { get }
+//     mutating func adjust()
+// }
+
+// class SimpleClass: ExampleProtocol {
+//     var simpleDescription: String = "A very simple class."
+//     var anotherProperty: Int = 69105
+//     func adjust() {
+//         simpleDescription += "  Now 100% adjusted."
+//     }
+// }
+// var a = SimpleClass()
+// a.adjust()
+// let aDescription = a.simpleDescription
+
+// struct SimpleStructure: ExampleProtocol {
+//     var simpleDescription: String = "A simple structure"
+//     mutating func adjust() {
+//         simpleDescription += " (adjusted)"
+//     }
+// }
+
+// var b = SimpleStructure()
+// b.adjust()
+// let bDescription = b.simpleDescription
+
+// Use extension to add functionality to an existing type
+// extension Int: ExampleProtocol {
+//     var simpleDescription: String {
+//         return "The number \(self)"
+//     }
+//     mutating func adjust() {
+//         self += 42
+//     }
+// }
+// print(7.simpleDescription)
