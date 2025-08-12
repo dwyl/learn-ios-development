@@ -677,3 +677,4 @@ func anyCommonElements<T: Sequence, U: Sequence>(_ lhs: T, _ rhs: U) -> Bool
     return false
 }
 print("anyCommonElements: \(anyCommonElements([1, 2, 3], [3]))")
+

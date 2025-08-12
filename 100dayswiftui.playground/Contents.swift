@@ -7,3 +7,4 @@ name = "Rebecca"
 name = "Keeley"
 
 let character = "Daphne"
+print("character is \(character)")
