@@ -195,13 +195,21 @@ If you find this repo useful, please star on `GitHub`. ⭐️🙏
 
 This section details everything you need to get started
 without excessive hand-holding.
-But if you get stuck, please open an issue 
+But if you get stuck, please 
+[open an issue](https://github.com/dwyl/learn-ios-development/issues)
+
 
 ## Prerequisites
 
 Some basic programming experience is desireable but not essential.
-If you don't have _any_ prior experience in programming,
-I'd recommend learning `JavaScript` or `Python` first
+You could learn `Swift` as your _first_ language
+and dive stright in at the deep end of building `iOS` Apps.
+However _most_ people will have _some_ prior knowledge
+e.g: `JavaScript` or `Python`
+and knowledge of a _typed_ language such as 
+[`TypeScript`](https://github.com/dwyl/learn-typescript) 
+or
+[`Java`] 
 as the learning curve is less steep.
 
 If you already know a couple of programming languages,
@@ -215,10 +223,14 @@ https://docs.swift.org/swift-book/documentation/the-swift-programming-language/t
 ## Required Hardware
 
 You'll need a `Mac` computer (laptop or desktop) 
-with an `Apple Silicon` processor.
+with an `Apple Silicon` processor<sup>2</sup>.
 e.g: any `M1` or greater.
 No need for any latest+greatest top spec `Mac`;
 just the one you can afford (or already have!).
+
+<details>
+
+<summary><sup>2</sup>The **_base_ model** `M1` ...</summary>
 
 I'm writing this 
 and doing all my `Swift` learning
@@ -267,5 +279,6 @@ Launch your awesome App
 and then once it _makes_ money,
 you can always upgrade! 
 
+</details>
 
 ## Progressive Disclosure of Complexity
