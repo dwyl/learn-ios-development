@@ -282,3 +282,9 @@ you can always upgrade!
 </details>
 
 ## Progressive Disclosure of Complexity
+
+One of the guiding principles for the languagbe design of `Swift`
+is the concept of 
+"[Progressive ](https://en.wikipedia.org/wiki/Progressive_disclosure)", 
+which means you can start reading & writing `Swift` code immediately
+and only need to learn advanced language features when needed.
